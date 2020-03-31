@@ -12,7 +12,7 @@
     "copy:ts": "cp src/index.d.ts lib/index.d.ts",
     "build:js": "babel src",
     "build:cjs": "npm run build:js -- --env-name cjs --out-dir lib/",
-    "build:mjs": "npm run build:js -- --env-name mjs --out-dir es/; j2m es/*",
+    "build:mjs": "npm run build:js -- --env-name mjs --out-dir es/",
     "build:umd": "npm run build:js -- --env-name dist --out-dir dist/",
     "build": "npm run clean; npm run build:umd && npm run build:cjs && npm run build:mjs && npm run copy:ts",
     "prepublishOnly": "npm run clean && npm run build"
