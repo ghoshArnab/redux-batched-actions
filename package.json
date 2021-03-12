@@ -44,7 +44,7 @@
     "@babel/register": "^7.9.0",
     "chai": "^4.2.0",
     "js-to-mjs": "^0.2.0",
-    "mocha": "^7.1.1",
+    "mocha": "^8.3.2",
     "sinon": "^9.0.1",
     "sinon-chai": "^3.5.0"
   },
